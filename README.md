@@ -1,5 +1,9 @@
 End-to-End Speech Translation Progress
 ======
+## Industry News
+* [VOICE BOTS](https://voicebot.ai/)
+* [SLATOR](https://slator.com/)
+
 
 ## Tutorial
 * EACL 2021 tutorial: [Speech Translation](https://st-tutorial.github.io)
