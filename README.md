@@ -12,6 +12,10 @@ End-to-End Speech Translation Progress
 * INTERSPEECH 2019 survey talk: [Spoken Language Translation](https://www.youtube.com/watch?v=beB5L6rsb0I)
 
 ## Data
+* Open Speech Language Resources: [OSLR](https://www.openslr.org/resources.php)
+* Open Speech Corpora: [Open Speech Corpora](https://github.com/coqui-ai/open-speech-corpora)
+* Informatics Research Data Repository: [IRDR](https://www.nii.ac.jp/dsc/idr/en/speech/)
+* UA Speech Database: [UASD](http://www.isle.illinois.edu/sst/data/UASpeech/)
 
 | Corpus | Direction | Target | Duration | License |
 | ------ |:-------:|:-----:|:-----:|----:|
