@@ -17,21 +17,22 @@ End-to-End Speech Translation Progress
 * Informatics Research Data Repository: [IRDR](https://www.nii.ac.jp/dsc/idr/en/speech/)
 * UA Speech Database: [UASD](http://www.isle.illinois.edu/sst/data/UASpeech/)
 
-| Corpus                                                                                                        |                                                                             Direction                                                                             |    Target     | Duration | License |
-|---------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------:|:--------:|----:|
-| [CoVoST 2](https://arxiv.org/pdf/2007.10310.pdf)                                                              | {Fr, De, Es, Ca, It, Ru, Zh, Pt, Fa, Et, Mn, Nl, Tr, Ar, Sv, Lv, Sl, Ta, Ja, Id, Cy} -> En and En -> {De, Ca, Zh, Fa, Et, Mn, Tr, Ar, Sv, Lv, Sl, Ta, Ja, Id, Cy} |     Text      |  2880h   | CC0 |
-| [CVSS](https://arxiv.org/pdf/2201.03713.pdf) |                                    {Fr, De, Es, Ca, It, Ru, Zh, Pt, Fa, Et, Mn, Nl, Tr, Ar, Sv, Lv, Sl, Ta, Ja, Id, Cy} -> En                                     | Text & Speech |  1900h   | CC BY 4.0 |                                                                                                                                                                   
-| [mTEDx](https://arxiv.org/pdf/2102.01757.pdf)                                                                 |                                         {Es, Fr, Pt, It, Ru, El} -> En, {Fr, Pt, It} -> Es, Es -> {Fr, It}, {Es,Fr} -> Pt                                         |     Text      |   765h   | CC BY-NC-ND 4.0 |
-| [CoVoST](https://arxiv.org/pdf/2002.01320.pdf)                                                                |                                                        {Fr, De, Nl, Ru, Es, It, Tr, Fa, Sv, Mn, Zh} -> En                                                         |     Text      |   700h   | CC0 |
-| [MUST-C](https://www.aclweb.org/anthology/N19-1202.pdf) & [MUST-Cinema](https://arxiv.org/pdf/2002.10829.pdf) |                                                  En -> {De, Es, Fr, It, Nl, Pt, Ro, Ru, Ar, Cs, Fa, Tr, Vi, Zh}                                                   |     Text      |   504h   | CC BY-NC-ND 4.0 |
-| [How2](https://arxiv.org/pdf/1811.00347.pdf)                                                                  |                                                                             En -> Pt                                                                              |     Text      |   300h   | Youtube & CC BY-SA 4.0 |
-| [Augmented LibriSpeech](https://arxiv.org/pdf/1802.03142.pdf)                                                 |                                                                             En -> Fr                                                                              |     Text      |   236h   | CC BY 4.0 |
-| [Europarl-ST](https://arxiv.org/pdf/1911.03167.pdf)                                                           |                                           {En, Fr, De, Es, It, Pt, Pl, Ro, Nl} -> {En, Fr, De, Es, It, Pt, Pl, Ro, Nl}                                            |     Text      |   280h   | CC BY-NC 4.0 |
-| [Kosp2e](https://arxiv.org/pdf/2107.02875.pdf)                                                                |                                                                             Ko -> En                                                                              |     Text      |   198h   | Mixed CC |
-| [Fisher + Callhome](https://www.seas.upenn.edu/~ccb/publications/improved-speech-to-speech-translation.pdf)   |                                                                             Es -> En                                                                              |     Text      | 160h+20h | LDC |
-| [MaSS](https://arxiv.org/pdf/1907.12895.pdf)                                                                  |                                               {En, Es, Eu, Fi, Fr, Hu, Ro, Ru} -> {En, Es, Eu, Fi, Fr, Hu, Ro, Ru}                                                | Text & Speech |   172h   | Bible.is |
-| [LibriVoxDeEn](https://arxiv.org/pdf/1910.07924.pdf)                                                          |                                                                             De -> En                                                                              |     Text      |   110h   | CC BY-NC-SA 4.0 |
-| [BSTC](https://arxiv.org/pdf/2104.03575.pdf)                                                                  |                                                                             Zh -> En                                                                              |     Text      |   68h    |  |
+| Corpus                                                                                                        |                                                                             Direction                                                                             |    Target     | Duration |                                                                                                            License |
+|---------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------:|:--------:|-------------------------------------------------------------------------------------------------------------------:|
+| [CoVoST 2](https://arxiv.org/pdf/2007.10310.pdf)                                                              | {Fr, De, Es, Ca, It, Ru, Zh, Pt, Fa, Et, Mn, Nl, Tr, Ar, Sv, Lv, Sl, Ta, Ja, Id, Cy} -> En and En -> {De, Ca, Zh, Fa, Et, Mn, Tr, Ar, Sv, Lv, Sl, Ta, Ja, Id, Cy} |     Text      |  2880h   |                                                                                                                CC0 |
+| [CVSS](https://arxiv.org/pdf/2201.03713.pdf) |                                    {Fr, De, Es, Ca, It, Ru, Zh, Pt, Fa, Et, Mn, Nl, Tr, Ar, Sv, Lv, Sl, Ta, Ja, Id, Cy} -> En                                     | Text & Speech |  1900h   |                                                                                                          CC BY 4.0 |                                                                                                                                                                   
+| [mTEDx](https://arxiv.org/pdf/2102.01757.pdf)                                                                 |                                         {Es, Fr, Pt, It, Ru, El} -> En, {Fr, Pt, It} -> Es, Es -> {Fr, It}, {Es,Fr} -> Pt                                         |     Text      |   765h   |                                                                                                    CC BY-NC-ND 4.0 |
+| [CoVoST](https://arxiv.org/pdf/2002.01320.pdf)                                                                |                                                        {Fr, De, Nl, Ru, Es, It, Tr, Fa, Sv, Mn, Zh} -> En                                                         |     Text      |   700h   |                                                                                                                CC0 |
+| [MUST-C](https://www.aclweb.org/anthology/N19-1202.pdf) & [MUST-Cinema](https://arxiv.org/pdf/2002.10829.pdf) |                                                  En -> {De, Es, Fr, It, Nl, Pt, Ro, Ru, Ar, Cs, Fa, Tr, Vi, Zh}                                                   |     Text      |   504h   |                                                                                                    CC BY-NC-ND 4.0 |
+| [How2](https://arxiv.org/pdf/1811.00347.pdf)                                                                  |                                                                             En -> Pt                                                                              |     Text      |   300h   |                                                                                             Youtube & CC BY-SA 4.0 |
+| [Augmented LibriSpeech](https://arxiv.org/pdf/1802.03142.pdf)                                                 |                                                                             En -> Fr                                                                              |     Text      |   236h   |                                                                                                          CC BY 4.0 |
+| [Europarl-ST](https://arxiv.org/pdf/1911.03167.pdf)                                                           |                                           {En, Fr, De, Es, It, Pt, Pl, Ro, Nl} -> {En, Fr, De, Es, It, Pt, Pl, Ro, Nl}                                            |     Text      |   280h   |                                                                                                       CC BY-NC 4.0 |
+| [Kosp2e](https://arxiv.org/pdf/2107.02875.pdf)                                                                |                                                                             Ko -> En                                                                              |     Text      |   198h   |                                                                                                           Mixed CC |
+| [Fisher + Callhome](https://www.seas.upenn.edu/~ccb/publications/improved-speech-to-speech-translation.pdf)   |                                                                             Es -> En                                                                              |     Text      | 160h+20h |                                                                                                                LDC |
+| [MaSS](https://arxiv.org/pdf/1907.12895.pdf)                                                                  |                                                         parallel among En, Es, Eu, Fi, Fr, Hu, Ro and Ru                                                          | Text & Speech |   172h   |                                                                                                           Bible.is |
+| [LibriVoxDeEn](https://arxiv.org/pdf/1910.07924.pdf)                                                          |                                                                             De -> En                                                                              |     Text      |   110h   |                                                                                                    CC BY-NC-SA 4.0 |
+| [Prabhupadavani](https://arxiv.org/pdf/2201.11391.pdf) |                     parallel among En, Fr, De, Gu, Hi, Hu, Id, It, Lv, Lt, Ne, Fa, Pl, Pt, Ru, Sl, Sk, Es, Se, Ta, Te, Tr, Bg, Hr, Da and Nl                      |     Text |   94h    |  |
+| [BSTC](https://arxiv.org/pdf/2104.03575.pdf)                                                                  |                                                                             Zh -> En                                                                              |     Text      |   68h    |                                                                                                                    |
 
 ## Toolkit
 * [ESPNet-ST](https://github.com/espnet/espnet)
@@ -39,21 +40,26 @@ End-to-End Speech Translation Progress
 * [NeurST](https://github.com/bytedance/neurst)
 
 ## Paper
+### 2022
+- [arXiv] [Prabhupadavani: A Code-mixed Speech Translation Data for 25 Languages](https://arxiv.org/pdf/2201.11391.pdf)
+- [arXiv] [Tackling data scarcity in speech translation using zero-shot multilingual machine translation techniques](https://arxiv.org/pdf/2201.11172.pdf)
+- [arXiv] [CVSS Corpus and Massively Multilingual Speech-to-Speech Translation](https://arxiv.org/pdf/2201.03713.pdf)
+- [arXiv] [SHAS: Approaching optimal Segmentation for End-to-End Speech Translation](https://arxiv.org/pdf/2202.04774.pdf)
+- [NN] [Improving data augmentation for low resource speech-to-text translation with diverse paraphrasing](https://www.sciencedirect.com/science/article/pii/S0893608022000260)
+- [AAAI] [Regularizing End-to-End Speech Translation with Triangular Decomposition Agreement](https://arxiv.org/pdf/2112.10991.pdf)
 
 ### 2021
-- [arXiv] [CVSS Corpus and Massively Multilingual Speech-to-Speech Translation](https://arxiv.org/pdf/2201.03713.pdf)
-- [arXiv] [Regularizing End-to-End Speech Translation with Triangular Decomposition Agreement](https://arxiv.org/pdf/2112.10991.pdf)
 - [arXiv] [Textless Speech-to-Speech Translation on Real Data](https://arxiv.org/pdf/2112.08352.pdf)
-- [arXiv] [Simultaneous Speech Translation for Live Subtitling: from Delay to Display](https://arxiv.org/pdf/2107.08807.pdf)
 - [arXiv] [Translatotron 2: Robust direct speech-to-speech translation](https://arxiv.org/pdf/2107.08661.pdf)
 - [arXiv] [Direct speech-to-speech translation with discrete units](https://arxiv.org/pdf/2107.05604.pdf)
 - [arXiv] [Efficient Transformer for Direct Speech Translation](https://arxiv.org/pdf/2107.03069.pdf)
 - [arXiv] [Zero-shot Speech Translation](https://arxiv.org/pdf/2107.06010.pdf)
-- [arXiv] [Beyond Voice Activity Detection: Hybrid Audio Segmentation for Direct Speech Translation](https://arxiv.org/pdf/2104.11710.pdf)
 - [arXiv] [UniST: Unified End-to-end Model for Streaming and Non-streaming Speech Translation](https://arxiv.org/pdf/2109.07368.pdf)
 - [arXiv] [Direct simultaneous speech to speech translation](https://arxiv.org/pdf/2110.08250.pdf)
 - [ASRU] [Fast-MD: Fast Multi-Decoder End-to-End Speech Translation with Non-Autoregressive Hidden Intermediates](https://arxiv.org/pdf/2109.12804.pdf)
 - [ASRU] [Assessing Evaluation Metrics for Speech-to-Speech Translation](https://arxiv.org/pdf/2110.13877.pdf)
+- [ASRU] [Enabling Zero-shot Multilingual Spoken Language Translation with Language-Specific Encoders and Decoders](https://arxiv.org/pdf/2011.01097.pdf)
+- [ICNLSP] [Beyond Voice Activity Detection: Hybrid Audio Segmentation for Direct Speech Translation](https://arxiv.org/pdf/2104.11710.pdf)
 - [INTERSPEECH] [Impact of Encoding and Segmentation Strategies on End-to-End Simultaneous Speech Translation](https://arxiv.org/pdf/2104.14470.pdf)
 - [EMNLP] [Speechformer: Reducing Information Loss in Direct Speech Translation](https://arxiv.org/pdf/2109.04574.pdf)
 - [EMNLP] [Is "moby dick" a Whale or a Bird? Named Entities and Terminology in Speech Translation](https://arxiv.org/pdf/2109.07439.pdf)
@@ -66,6 +72,7 @@ End-to-End Speech Translation Progress
 - [INTERSPEECH] [SpecRec: An Alternative Solution for Improving End-to-End Speech-to-Text Translation via Spectrogram Reconstruction](https://www.isca-speech.org/archive/pdfs/interspeech_2021/chen21i_interspeech.pdf)
 - [INTERSPEECH] [Optimally Encoding Inductive Biases into the Transformer Improves End-to-End Speech Translation](https://www.isca-speech.org/archive/pdfs/interspeech_2021/vyas21_interspeech.pdf)
 - [INTERSPEECH] [ASR Posterior-based Loss for Multi-task End-to-end Speech Translation](https://www.isca-speech.org/archive/pdfs/interspeech_2021/ko21_interspeech.pdf)
+- [AMTA] [Simultaneous Speech Translation for Live Subtitling: from Delay to Display](https://arxiv.org/pdf/2107.08807.pdf)
 - [ACL] [Stacked Acoustic-and-Textual Encoding: Integrating the Pre-trained Models into Speech Translation Encoders](https://arxiv.org/pdf/2105.05752.pdf)
 - [ACL] [Multilingual Speech Translation with Efficient Finetuning of Pretrained Models](https://arxiv.org/pdf/2010.12829.pdf)
 - [ACL] [Lightweight Adapter Tuning for Multilingual Speech Translation](https://arxiv.org/pdf/2106.01463.pdf)
@@ -101,7 +108,6 @@ End-to-End Speech Translation Progress
 - [SLT] [Transformer-based Direct Speech-to-speech Translation with Transcoder](https://ahcweb01.naist.jp/papers/conference/2021/202101_SLT_takatomo-k/202101_SLT_takatomo-k.paper.pdf)
 
 ### 2020
-- [arXiv] [Enabling Zero-shot Multilingual Spoken Language Translation with Language-Specific Encoders and Decoders](https://arxiv.org/pdf/2011.01097.pdf)
 - [arXiv] [Bridging the Modality Gap for Speech-to-Text Translation](https://arxiv.org/pdf/2010.14920.pdf)
 - [arXiv] [CSTNet: Contrastive Speech Translation Network for Self-Supervised Speech Representation Learning](https://arxiv.org/pdf/2006.02814.pdf)
 - [CLiC-IT] [On Knowledge Distillation for Direct Speech Translation](https://arxiv.org/pdf/2012.04964.pdf)
